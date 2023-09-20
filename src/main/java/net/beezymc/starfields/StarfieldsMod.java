@@ -17,4 +17,8 @@ public class StarfieldsMod implements ModInitializer {
 		LOGGER.info("Initializing StarfieldsMod");
 		StarfieldsModItems.load();
 	}
+
+	public static Identifier id(String path) {
+		return new Identifier(MOD_ID, path);
+	}
 }
