@@ -1,5 +1,6 @@
 package net.beezymc.starfields.item;
 
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -11,12 +12,7 @@ import java.util.List;
 
 public class RarePlushieItem extends Item {
 	public RarePlushieItem() {
-		super(new Item.Settings().maxCount(64).rarity(Rarity.RARE));
-	}
-
-	@Override
-	public int getMaxUseTime(ItemStack itemstack) {
-		return 0;
+		super(new FabricItemSettings().rarity(Rarity.UNCOMMON));
 	}
 
 	@Override
