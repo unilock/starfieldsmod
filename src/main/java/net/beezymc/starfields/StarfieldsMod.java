@@ -10,7 +10,7 @@ import org.apache.logging.log4j.Logger;
 public class StarfieldsMod implements ModInitializer {
 	public static final String MOD_ID = "starfields";
 	public static final Logger LOGGER = LogManager.getLogger();
-	public static final boolean IS_TRINKETS_LOADED = FabricLoader.getInstance().getModContainer("trinkets").isPresent();
+	public static final boolean IS_TRINKETS_LOADED = FabricLoader.getInstance().isModLoaded("trinkets");
 
 	@Override
 	public void onInitialize() {
