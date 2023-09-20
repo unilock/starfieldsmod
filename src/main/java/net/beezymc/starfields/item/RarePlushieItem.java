@@ -1,7 +1,5 @@
-
 package net.beezymc.starfields.item;
 
-import java.util.List;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -9,8 +7,10 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Rarity;
 import net.minecraft.world.World;
 
-public class RareplushieItem extends Item {
-	public RareplushieItem() {
+import java.util.List;
+
+public class RarePlushieItem extends Item {
+	public RarePlushieItem() {
 		super(new Item.Settings().maxCount(64).rarity(Rarity.RARE));
 	}
 

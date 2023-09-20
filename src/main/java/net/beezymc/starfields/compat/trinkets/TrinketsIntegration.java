@@ -13,5 +13,5 @@ public class TrinketsIntegration {
         TrinketRendererRegistry.registerRenderer(new PlushieItem(), new TrinketsClientRenderer());
         TrinketRendererRegistry.registerRenderer(new RareplushieItem(), new TrinketsClientRenderer());
     }
-    }
+}
 
