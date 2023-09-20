@@ -1,0 +1,64 @@
+{
+  "mod_elements": [
+    {
+      "name": "Plushie",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plushie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starfields/models/item/plushie.json",
+          "src/main/java/net/mcreator/starfields/item/PlushieItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Rareplushie",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rare_plushie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starfields/item/RareplushieItem.java",
+          "src/main/resources/assets/starfields/models/item/rare_plushie.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.starfields.rare_plushie": "Rare Plushie",
+      "item.starfields.plushie": "Plushie"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "starfields",
+    "modName": "starfields",
+    "version": "1.0.0",
+    "description": "Starfields Addon Pack",
+    "author": "Beezy",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "by Beezy",
+    "modElementsPackage": "net.mcreator.starfields",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

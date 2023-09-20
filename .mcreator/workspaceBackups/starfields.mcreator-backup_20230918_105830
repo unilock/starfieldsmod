@@ -1,0 +1,46 @@
+{
+  "mod_elements": [
+    {
+      "name": "Plushie",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plushie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starfields/models/item/plushie.json",
+          "src/main/java/net/mcreator/starfields/item/PlushieItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.starfields.plushie": "Plushie"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "starfields",
+    "modName": "starfields",
+    "version": "1.0.0",
+    "author": "Facti, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "modElementsPackage": "net.mcreator.starfields",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
